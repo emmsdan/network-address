@@ -1,3 +1,3 @@
 #!/usr/bin/env node
-const utils = require('./utils').v4;
+const utils = require('./utils');
 module.exports = utils;

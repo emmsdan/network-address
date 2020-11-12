@@ -1,6 +1,6 @@
 {
   "name": "@emmsdan/network-address",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "get all the network addresses your app is running on.",
   "main": "index.js",
   "scripts": {
