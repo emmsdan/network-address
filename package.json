@@ -1,23 +1,22 @@
 {
-  "name": "@emmsdan/uniis",
-  "version": "0.0.7",
-  "description": "A folk of my own project to build something more simple and useable for me",
+  "name": "@emmsdan/network-address",
+  "version": "0.0.1",
+  "description": "get all the network addresses your app is running on.",
   "main": "index.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon index"
+    "start": "node index"
   },
   "bin": {
-    "uniis": "./index.js"
+    "network-address": "./index.js"
   },
   "keywords": [
     "emmsdan",
     "share",
-    "html",
-    "css",
+    "nodejs",
+    "v4 ip",
+    "ip",
     "js",
-    "cross browser",
-    "multi-share"
+    "network-address"
   ],
   "author": {
     "name": "EmmsDan",
@@ -25,17 +24,14 @@
     "url": "https://emmsdan.com/"
   },
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-fileupload": "^1.2.0"
-  },
+  "dependencies": {},
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/emmsdan/uniis.git"
+    "url": "git+https://github.com/emmsdan/network-address.git"
   },
   "bugs": {
-    "url": "https://github.com/emmsdan/uniis/issues"
+    "url": "https://github.com/emmsdan/network-address/issues"
   },
-  "homepage": "https://github.com/emmsdan/uniis#readme"
+  "homepage": "https://github.com/emmsdan/network-address#readme"
 }

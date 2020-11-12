@@ -1,29 +1,47 @@
-# UNIIS
+# Network Addresses
 
-A folk of my own project to build something more simple and useable for me
+Get access to all the available networks.
 
-I wanted to send a file I got online from A window PC to a linux, did not want to download something serious...
-##### ALL I WANTED WAS, SELECT MY FILE AND SEND IT TO THE OTHER DEVICE, NOT SOME TECHNICAL STUFFS...
-So, I folked my old repo, and made it simpler for me...
-Please don't ask me why ***UNIIS*** because I don't know
+## Installing
 
-
-### Use if you want... simple as A to F
-
-## HOW TO USE
-
-### OPTION 1
-
-#### TURN ON DEVICE wifi
-
-#### RUN
-
-```
-npx @emmsdan/uniis -p=9012
+using npm
+```bash
+npm install @emmsdan/network-address
 ```
 
-#### Go to the other PC, Tablet, Mobile (ok anything wifi enabled) and connect to your other device
+using yarn
+```bash
+yarn add @emmsdan/network-address
+```
 
-#### Open the url on the screen or (coming soon....just scan the qr code.)
+## Usage
 
-#### start sending files
+```javascript
+// CommonJS
+const networkAdd = require('@emmsdan/network-address').v4;
+
+
+// ECMA Script
+import { v4, v6 } from '@emmsdan/network-address';
+
+```
+
+```javascript
+ 
+ console.log(v4)
+ console.log(v6)
+
+
+ [
+  "192.168.xx.xx", 
+  "100.16.xx.xx", 
+  "172.17.xx.xx",
+  "127.0.0.1"
+ ]
+ 
+```
+
+.
+.
+
+|||***Don't forget you free to break this code always***|||

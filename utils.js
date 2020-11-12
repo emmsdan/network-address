@@ -12,7 +12,7 @@ function getAllIps(type='v4') {
     }
     return  isIp
   } else if (Array.isArray(data)) {
-    data.forEach(subData => {
+    data.forEach(function(subData) {
       if (typeof subData === 'string'){
         if(net[type](subData)) {
           isIp.push(subData)
@@ -29,4 +29,4 @@ findIp();
  return [...isIp]
 }
 
-module.exports = { getAllIps }
+module.exports = { default: getAllIps, v4: getAllIps(), v6: getAllIps('v6') }
